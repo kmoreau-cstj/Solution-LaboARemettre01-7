@@ -1,5 +1,5 @@
 /* 
-But:	Déterminer si l'entier est pair ou impair.
+But:	DÃ©terminer si l'entier est pair ou impair.
 Auteur:	Dominic Jeannotte-Parent	
 Date:	12/09/20
 */
@@ -8,29 +8,29 @@ Date:	12/09/20
 #include <iostream>;
 using namespace std;
 
-// Intégrer le main
+// IntÃ©grer le main
 
 int main()
 {
-	// Je définis la variable nombre1 préalablement.
+	// Je dÃ©finis la variable nombre1 prÃ©alablement.
 	int nombre1;
 
-	// Je demande à l'utilisateur d'entrer un nombre entier dans la console.
+	// Je demande Ã  l'utilisateur d'entrer un nombre entier dans la console.
 	cout << "Entrer un nombre entier: ";
 
-	// Je récupère ensuite cette valeur dans la variable nombre1
+	// Je rÃ©cupÃ¨re ensuite cette valeur dans la variable nombre1
 	cin >> nombre1;
 
-	// J'effectue une vérification sur la nature de l'entier que l'utilisateur vient de me transmettre.
+	// J'effectue une vÃ©rification sur la nature de l'entier que l'utilisateur vient de me transmettre.
 
-	// Si le modulo 2 nous donne le résultat 0 le nombre est pair sinon il est impair.
+	// Si le modulo 2 nous donne le rÃ©sultat 0 le nombre est pair sinon il est impair.
 	if(nombre1 % 2 == 0)
 
 		// Si le nombre1 est pair le programme injectera la ligne de code ci-dessous dans la console.
 		cout << nombre1 <<" est un nombre pair.";
 	
 	else
-		// Si le nombre1 n'a pas réussi la première condition qui est d'être pair le programme injectera la ligne de code ci-dessous.
+		// Si le nombre1 n'a pas rÃ©ussi la premiÃ¨re condition qui est d'Ãªtre pair le programme injectera la ligne de code ci-dessous.
 		cout << nombre1 <<" est un nombre impair.";
 	
 	// 
@@ -38,9 +38,9 @@ int main()
 
 	/*
 	Plan de test:
-
-	Résultats escomptés pour différents nombre:
-			Nombre entier | Réponse
+	// KM : Mets aussi des nombres nÃ©gatifs et 0
+	RÃ©sultats escomptÃ©s pour diffÃ©rents nombre:
+			Nombre entier | RÃ©ponse
 
 		1.		51			Impair
 		2.		24			Pair
