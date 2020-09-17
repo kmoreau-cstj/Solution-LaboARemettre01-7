@@ -1,5 +1,5 @@
 /*
-But:	Afficher un nombre à 5 chiffres verticalement en console.
+But:	Afficher un nombre Ã  5 chiffres verticalement en console.
 Auteur:	Dominic Jeannotte-Parent
 Date:	13/09/20
 */
@@ -8,32 +8,32 @@ Date:	13/09/20
 #include <iostream>;
 using namespace std;
 
-// Intégrer le main
+// IntÃ©grer le main
 
 int main()
 {
-	// Intégrer la variable nombre 1
+	// IntÃ©grer la variable nombre 1
 	int nombre1;
-	// Demander à l'utilisateur d'entrer un nombre à 5 chiffres
+	// Demander Ã  l'utilisateur d'entrer un nombre Ã  5 chiffres
 	
-	cout << "Veuillez rentré un nombre à 5 chiffres: ";
+	cout << "FR : Veuillez rentrÃ© un nombre Ã  5 chiffres: ";
 	// Sauvegarde la valeur de la variable.
 	cin >> nombre1;
 	
-	// J'applique une condition qui précise que le nombre sera seulement pris en compte si l'utilisateur à inscrit 5 chiffres.
+	// FR : J'applique une condition qui prÃ©cise que le nombre sera seulement pris en compte si l'utilisateur Ã  inscrit 5 chiffres.
 	if (nombre1 >= 10000 && nombre1 <= 99999)
 	{
-		// La logique de ces calculs est de prendre le nombre1. De lui faire des opérations mathématique de modulo/diviser ou les 2 pour obtenir une partie du nombre seulement.
-		cout << (nombre1 / 10000) << endl;			// je rajoute endl à la fin de chaque ligne pour faire un retour à la ligne.
+		// La logique de ces calculs est de prendre le nombre1. FR : De lui faire des opÃ©rations mathÃ©matique de modulo/diviser ou les 2 pour obtenir une partie du nombre seulement.
+		cout << (nombre1 / 10000) << endl;			// je rajoute endl Ã  la fin de chaque ligne pour faire un retour Ã  la ligne.
 		cout << (nombre1 % 10000 / 1000) << endl; 
 		cout << (nombre1 % 1000 / 100) << endl;
 		cout << (nombre1 % 100 / 10) << endl;
 		cout << (nombre1 % 10) << endl;
 	}
-	// Si le nombre n'a pas 5 chiffres, la condition est échoué donc nous arrivons au else qui demande à l'utilisateur de recommencer le programme.
+	// FR :Si le nombre n'a pas 5 chiffres, la condition est Ã©chouÃ© donc nous arrivons au else qui demande Ã  l'utilisateur de recommencer le programme.
 	else
 	{
-		cout << "Ceci n'est pas un nombre à 5 chiffres. Veuillez recommencer." << endl;
+		cout << "Ceci n'est pas un nombre Ã  5 chiffres. Veuillez recommencer." << endl;
 	}
 
 	// Pour ne pas minimiser la console.
@@ -42,9 +42,9 @@ int main()
 	return 0;
 	/*
 	Plan de test:
-
-	Résultats escomptés pour différents nombre:
-			Nombre entier | Réponse
+	// KM : Manque des valeurs avec moins ou plus de 5 chiffres
+	RÃ©sultats escomptÃ©s pour diffÃ©rents nombre:
+			Nombre entier | RÃ©ponse
 
 		1.		12345		1
 							2
